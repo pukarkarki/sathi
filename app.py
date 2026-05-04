@@ -28,7 +28,7 @@ def load_model():
 
 processor, model = load_model()
 
-st.title("मेरो साथी")
+st.title("Image Captioning with Nepali Translation and Speech")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 camera_file = st.camera_input("Or capture from camera")
